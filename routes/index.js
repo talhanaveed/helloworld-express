@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
 
   var Connection = require('tedious').Connection;  
     var config = {  
-        server: 'sqldemoapp.database.windows.net',  //update me
+        server: 'sqldemoapp2.database.windows.net',  //update me
         authentication: {
             type: 'default',
             options: {
@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
         options: {
             // If you are on Microsoft Azure, you need encryption:
             encrypt: true,
-            database: 'sqldemoapp1'  //update me
+            database: 'sqldemoapp2'  //update me
         }
     };  
     var connection = new Connection(config);  
