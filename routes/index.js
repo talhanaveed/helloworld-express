@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
         authentication: {
             type: 'default',
             options: {
-                userName: 'talhanaveed', //update me
-                password: 'morroco@123'  //update me
+                userName: '', //update me
+                password: ''  //update me
             }
         },
         options: {
