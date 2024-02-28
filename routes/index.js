@@ -3,7 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-
+res.render('index', { title : 'demo-app' });
+  
+/*
   var Connection = require('tedious').Connection;  
     var config = {  
         server: 'sqldemoapp.database.windows.net',  //update me
@@ -61,7 +63,7 @@ router.get('/', function(req, res, next) {
         });
         connection.execSql(request);  
         console.log(result);
-        
+  */
     } 
   
 });
