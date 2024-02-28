@@ -63,9 +63,9 @@ res.render('index', { title : 'demo-app' });
         });
         connection.execSql(request);  
         console.log(result);
-  */
+
     } 
-  
+    */
 });
 
 module.exports = router;
